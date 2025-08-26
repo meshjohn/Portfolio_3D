@@ -34,7 +34,7 @@ const Experience = () => {
                   <div
                     className="work-content_container group"
                     key={id}
-                    onClick={setAnimationName(animation.toLowerCase())}
+                    onClick={() => setAnimationName(animation.toLowerCase())}
                     onPointerOver={() =>
                       setAnimationName(animation.toLowerCase())
                     }
